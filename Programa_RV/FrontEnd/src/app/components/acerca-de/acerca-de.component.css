@@ -1,0 +1,28 @@
+ /*Presentacion*/
+section.acerca-de-mi{
+  background-color:  rgb(29, 29, 23);
+  color: white;
+  font-size: 1rem;
+}
+.border-2.p-2.rounded-4.text-center{
+  background-color: rgba(117, 115, 111, 0.521);
+  margin:0 3rem;
+}
+
+.rounded-circle{
+  border: 2px solid rgb(252, 244, 244);
+  width: 8rem;
+}
+.col-8.text-center{
+  margin-top:3rem;
+}
+@media screen and (max-width:375px){
+  img{
+    width: 40%;
+  }
+  .col-xs-12{
+    margin-top: 0.5rem;
+  }
+ 
+}
+

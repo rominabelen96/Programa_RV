@@ -1,0 +1,35 @@
+/*barra de navegacion*/
+.navbar.fixed-top{
+    background-color: rgb(29, 29, 23);
+} 
+.navbar-brand img{
+    width: 6.5rem;
+}
+ul li {
+    list-style:none;
+    padding: 0.5rem;
+}
+ul li i{
+    padding: 0.5rem;
+}
+.shadow:hover{
+    background-color: rgba(117, 115, 111, 0.849);
+    border-radius: 20%;
+    border: 2px solid rgb(252, 244, 244);
+}
+
+/*banner*/
+.banner img{
+    width: 100%;
+    margin-top: 4.5rem;
+}
+
+@media screen and (max-width:375px){
+    section{
+        margin-top: 5rem;
+    }
+    div.container-fluid{
+       margin: 0;
+       padding: 0;
+    }
+}
